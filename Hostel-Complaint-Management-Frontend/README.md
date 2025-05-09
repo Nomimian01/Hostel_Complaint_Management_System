@@ -1,70 +1,122 @@
-# Getting Started with Create React App
+## Hostel Complaint Management System
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Project Overview
 
-## Available Scripts
+**Hostel Complaint Management System** is a full-stack web application designed to streamline the management of complaints raised by students residing in hostels. The system allows users to submit complaints, track their statuses, and provides role-based dashboards for different users (e.g., students, resident tutors, hostel wardens, campus coordinators).
 
-In the project directory, you can run:
+The project is built using the **MERN stack** (MongoDB, Express.js, React, Node.js) with an intuitive interface to manage complaints, including mess, maintenance, plumbing, electrical issues, and more.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Live Demo
 
-### `npm test`
+Check out the live demo of the Hostel Complaint Management System:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🔗 [Live Demo](https://hostel-complaint-management-frontend.vercel.app/)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📂 Project Structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Hostel-Complaint-Management-System/
+├── Hostel-Complaint-Management-Frontend/   # Frontend code (React)
+├── Hostel-Complaint-Management-Backend/    # Backend code (Node.js/Express.js)
+├── .gitignore                             # Git ignore file
+├── README.md                              # Project description
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🔧 Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Frontend:**
+  - React.js
+  - React Router for routing
+  - Axios for HTTP requests
+  - Vercel for deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Backend:**
+  - Node.js
+  - Express.js
+  - MongoDB with Mongoose for database management
+  - Render for deployment
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **Other:**
+  - Git for version control
+  - JWT for authentication
+  - NodeMailer for OTP email functionality
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🖥️ Features
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Role-based access**: Different dashboards for students, resident tutors (RT), hostel wardens, and campus coordinators (CC).
+- **Complaint Management**: Students can submit complaints, and RTs/CCs can track the status.
+- **Graphical Complaint Tracking**: Visual representation of complaint statuses (Pending, Accepted, Rejected).
+- **OTP-based Password Reset**: Users can reset their password via OTP sent to their registered email.
+- **Admin functionalities**: Hostel wardens and campus coordinators can manage users and complaints.
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ⚙️ How to Run Locally
 
-### Analyzing the Bundle Size
+### 1. Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+git clone https://github.com/Nomimian01/Hostel_Complaint_Management_System.git
+````
 
-### Making a Progressive Web App
+### 2. Set up the Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+* Navigate to the backend directory:
 
-### Advanced Configuration
+```bash
+cd Hostel-Complaint-Management-System/Hostel-Complaint-Management-Backend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Install dependencies:
 
-### Deployment
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Create a `.env` file with your MongoDB URI and JWT secret (check `.env.example` for guidance).
 
-### `npm run build` fails to minify
+* Start the backend server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm start
+```
+
+### 3. Set up the Frontend
+
+* Navigate to the frontend directory:
+
+```bash
+cd Hostel-Complaint-Management-System/Hostel-Complaint-Management-Frontend
+```
+
+* Install dependencies:
+
+```bash
+npm install
+```
+
+* Start the frontend server:
+
+```bash
+npm start
+```
+
+Now, open your browser and visit [http://localhost:3000](http://localhost:3000) to see the app in action.
+
+
+## 📑 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## 📝 Key Points:
+- **Live Demo Link**: You can now access the **Live Demo** directly on Vercel.
+- **Frontend and Backend Repos**: These are clearly linked to the respective GitHub repositories.
+- **Technologies & Features**: I've included the tech stack and project features for clarity.
+- **Setup Instructions**: Instructions for running the project locally.
+
