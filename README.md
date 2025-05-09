@@ -18,6 +18,7 @@ Check out the live demo of the Hostel Complaint Management System:
 ## 📂 Project Structure
 
 Hostel-Complaint-Management-System/
+
 ├── Hostel-Complaint-Management-Frontend/   # Frontend code (React)
 ├── Hostel-Complaint-Management-Backend/    # Backend code (Node.js/Express.js)
 ├── .gitignore                             # Git ignore file
